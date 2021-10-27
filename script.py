@@ -9,14 +9,16 @@ See <i>/help</i> for more details.</b>
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
-
+<i>എന്നെ കുറിച്ച് കൂടുതൽ വിവരങ്ങളൊന്നുമില്ല 
+എന്റെ അഡ്മിനുമായി ബന്ധപ്പെടുക
+@I_creator_bot :)</i>
 
 <b>Basic Commands;</b>
-
 /start - Check if I'm alive!
 /help - Command help
 /about - Something about me!
+
+<b>Filter Commands;</b>
 
 
 <b>Filter Commands;</b>
@@ -47,13 +49,13 @@ See <i>/help</i> for more details.</b>
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-<b>© @TroJanzHEX</b>
+<b>© @I_creator_bot</b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : CREATOR</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @I_creator_bot    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
