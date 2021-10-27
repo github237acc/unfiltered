@@ -41,40 +41,9 @@
 
 
 ## How to use the bot
-* Add bot to your group with admin rights.
+* to use these commands)
 
-* Add your filters :)
-
-
-## Bot Commands
-
-(You need to be an admin or Auth User in order to use these commands)
-
-> Filter Commands
-* `/add <filtername> <filtercontent>`  -  To add your filter. You can also reply to your content with /add command.
-
-* `/del <filtername>`  -  Delete your filter.
-
-* `/delall`  -  Delete all filters from group. (Group Owner Only!)
-
-* `/viewfilters`  -  List all filters in chat.
-
-> Connection Commands
-* `/connect groupid`  -  Connects your group to PM. You can also simply use, `/connect` in groups.
-
-* `/connections`  -  Manage your connections. (only in PM)
-
-> Extras
-* `/status`  -  Shows current status of your bot (Auth User Only)
-
-* `/id`  -  Shows ID information
-
-* `/info <userid>`  -  Shows User Information. Also use `/info` as reply to some message for their details!
-
-
-## You can check the video tutorial on how to deploy
-
-[Click here to see tutorial video](https://youtu.be/hkmc3e7U7R4)
+> .be/hkmc3e7U7R4)
 
 Thanks to [InfotelGroup](https://telegram.dog/InFoTel_Group) and [Erich Daniken](https://telegram.dog/ErichDaniken) for the video
 
@@ -85,7 +54,7 @@ Thanks to [InfotelGroup](https://telegram.dog/InFoTel_Group) and [Erich Daniken]
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/c4christy/unfiltered)
 
 ### Deploy in your vps
 ```sh
@@ -96,24 +65,7 @@ pip3 install -r requirements.txt
 python3 bot.py
 ```
 
-
-## Configs
-
-* TG_BOT_TOKEN  - Get bot token from @BotFather
-
-* API_ID        - From my.telegram.org (or @UseTGXBot)
-
-* API_HASH      - From my.telegram.org (or @UseTGXBot)
-
-* AUTH_USERS  - ID of users that can use the bot commands. Get from [MissRose Bot](https://telegram.dog/MissRose_bot) by using /id command
-
-* DATABASE_URI  - Mongo Database URL from https://cloud.mongodb.com/
-
-* DATABASE_NAME  - Your database name from mongoDB. Default will be 'Cluster0'
-
-* SAVE_USER  -  Give yes or no . Usefull for getting userinfo and total user counts. May reduce filter capacity :( .
-
-* HEROKU_API_KEY  -  To check dyno status. Go to https://dashboard.heroku.com/account , scroll down and press Reveal API
+Subscribe on YouTube
 
 
 ### Optional - To set alternate Bot Commmands!
